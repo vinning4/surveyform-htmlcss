@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<title>FCC Survey Form</title>
+<body>
+<link rel="stylesheet" href="surveyform.css">
+<h1 id="title">V's Survey Form</h1>
+<h3 id="description"><i>Thanks for filling this out</i></h3>
+
+<form action="link.php" id="survey-form" method="post">
+
+<section class="pers-info">
+  <label for="name" id="name-label">Name<input type="text" id="name" name="name" placeholder="Jack Jackson" required></label>
+  <label for="email" id="email-label">Email<input type="email" id="email" name="email" placeholder="jack@gmail.com" required></label>
+  <label for="number" id="number-label">Age (optional)<input type="number" id="number" name="age" min="18" max="101" placeholder="30"></label>
+  </section>
+  <br>
+  <section class="choice-ques">
+  <label for="dropdown">Current role?
+    <select id="dropdown">
+      <option value="">Select one</option>
+      <option value="1">Student</option>
+      <option value="2">Employee</option>
+      <option value="3">Other</option>
+  </label>
+
+<legend>Recommend fcc?</legend>
+
+  <label class="radio"><input type="radio" id="yes" name="yes-no" value="1" checked>Yes</label>
+  <label class="radio"><input type="radio" id="no" name="yes-no" value="2">No</label>
+
+<br>
+<label for="feature">Fave feature?
+    <select id="feature">
+      <option value="">Select one</option>
+      <option value="1">Challenges</option>
+      <option value="2">Projects</option>
+    </select>
+</label>
+</section>
+<br>
+<section class="comment-box">
+
+<legend>What to improve?</legend>
+<label class="checkbox"><input type="checkbox" id="f-end" name="f-end" value="1">Front end</label>
+</label>
+<label class="checkbox"><input type="checkbox" id="f-end" name="b-end" value="2">Back end</label>
+</label>
+
+<label>Any comments?<textarea max=100 placeholder="Enter here"></textarea></label>
+
+</section>
+
+<button type="submit" id="submit">Submit</button>
+
+</form>
+</body>
+</html>
+

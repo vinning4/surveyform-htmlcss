@@ -1,0 +1,60 @@
+body {
+  background-image: url("https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg");
+  color: white;
+  font-family: sans-serif;
+}
+
+#title, #description {
+  color: black;
+}
+
+h1, h3 {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+form {
+  width: 70vw;
+  margin: 30px auto;
+  background-color: rgb(23, 23, 97);
+  padding: 30px;
+}
+
+.pers-info label, .pers-info input {
+  display: block;
+  width: 100%;
+  margin: 10px auto;
+}
+
+.radio, .checkbox {
+display: flex;
+align-items: center;
+margin: 20px auto;
+}
+
+
+
+.choice-ques #dropdown, #feature {
+display: block;
+margin-top: 10px;
+margin-bottom: 20px;
+width: 100%;
+padding: 5px;
+}
+
+textarea {
+  display: block;
+  margin: 10px auto;
+  width: 100%;
+  height: 100px;
+}
+
+button {
+  display: block;
+  width: 100%;
+  margin: 20px auto;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 5px;
+  font-size: 16px;
+}
